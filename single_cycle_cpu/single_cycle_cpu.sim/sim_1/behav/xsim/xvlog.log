@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/control_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/data_path.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-311] analyzing module mux_5x1
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/rv32i_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_Core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Levi/Desktop/aaaaa/single_cycle_cpu/single_cycle_cpu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
