@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/apb_master.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/control_unit.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/data_path.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/dht11.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/fnd_controller.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/gpi.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/gpio.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/gpo.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/hc_sr04.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/mcu.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/ram.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/rom.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/rv32i_core.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/timer.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sources_1/new/uart.sv" \
+"../../../../multi_cycle_amba_apb.srcs/sim_1/new/tb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
