@@ -96,7 +96,7 @@ rom[5] = 32'b0_000000_00011_00001_111_0_1000_0_1100011; // BGEU
 - USR Read, Timeout match(실제 Timeout: 0)
 <img width="1412" height="191" alt="image" src="https://github.com/user-attachments/assets/5eec9f96-7e30-4cd6-8007-211572325655" />
 
-## 3️⃣ Verification Report
+# 📖 Verification Report
 랜덤 테스트 결과 (총 10,000건 수행)
 
 ✅ Valid Access : 8,375건  
