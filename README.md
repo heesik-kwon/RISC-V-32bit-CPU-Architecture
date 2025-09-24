@@ -1,3 +1,9 @@
+# 💻 RISC-V 32bit CPU / AMBA APB Peripheral 설계
+> RV32I 명령어 세트 아키텍처(ISA)를 기반으로 멀티사이클(Multi-cycle) CPU를 설계했습니다.
+> 설계한 CPU에 AMBA APB 버스 프로토콜을 적용하여 UART, 초음파 센서, FND, GPIO 등 다양한 주변장치를 연동하고 제어할 수 있도록 구현했습니다.
+
+---
+
 # 📈 RV32I 명령어 Simulation Result
 
 **Single Cycle Simulation(위)** /  **Multi Cycle Simulation(아래)** 입니다. 연산 결과가 동일하게 나온 것을 확인할 수 있습니다.
@@ -77,6 +83,20 @@ rom[5] = 32'b0_000000_00011_00001_111_0_1000_0_1100011; // BGEU
 <img width="2136" height="205" alt="image" src="https://github.com/user-attachments/assets/6702385e-3a8b-4219-953a-e039a7bde3a0" />
 
 ---
+
+# 🔠 C Test Program(Bubble Sort)
+
+C로 작성된 Bubble Sort 코드를 RISC-V 명령어로 컴파일하고, 이를 기계어(hex) 및 메모리 초기화 파일(code.mem)로 변환하였습니다. <br/>이 과정을 통해 Bubble Sort 알고리즘을 실제 RISC-V CPU 상에서 동작하도록 구현할 수 있었습니다.
+<img width="1399" height="656" alt="image" src="https://github.com/user-attachments/assets/2227e69a-1e6d-4867-8cae-5fda3ec44665" />
+
+Vivado Simulator 환경에서 Bubble Sort를 수행한 결과입니다.
+```
+입력 배열: {5, 4, 3, 2, 1}
+출력 배열: {1, 2, 3, 4, 5}
+```
+<img width="1562" height="348" alt="image" src="https://github.com/user-attachments/assets/72a9fe63-0baf-4e46-9788-aa13a07f9697" />
+
+
 
 # 📑 RISC-V+AMBA BUS Testbench Result
 
