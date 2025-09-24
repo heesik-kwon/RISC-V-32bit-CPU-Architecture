@@ -96,7 +96,7 @@ Vivado Simulator 환경에서 Bubble Sort를 수행한 결과입니다.
 ```
 <img width="1562" height="348" alt="image" src="https://github.com/user-attachments/assets/72a9fe63-0baf-4e46-9788-aa13a07f9697" />
 
-
+---
 
 # 📑 RISC-V+AMBA BUS Testbench Result
 
